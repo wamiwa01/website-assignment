@@ -1,0 +1,72 @@
+/* css/styles.css */
+
+/* This is an external CSS (Cascading Stylesheet) used for styling the entire System*/
+
+/* This body section is used to style the entire body element*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* This header section is used to style all header elements in the entire system*/
+  header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+
+   /* This nav/ul section is used to style all un-ordered list that are children of a nav element*/
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #005599;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+   /* This nav ul li section is used to style all li (list items) that are children of an un-ordered list and a grandchild of a nav element */
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  /* This nav ul li a section is used to style all a (hyperlink) elements that are children of an un-ordered list and a grandchild of a nav element and great grand child of a li element */
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+   /* This main section is used to style the main elements */
+  main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+  }
+  
+   /* This img section is used to style all image elements */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
+  /* This footer section is used to style all footer elements */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+  }
